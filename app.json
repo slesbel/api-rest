@@ -1,0 +1,7 @@
+{
+    "name": "api-rest-nodejs-typescript",
+    "description": "API REST NodeJs TypeScript Example",
+    "repository": "https://github.com/slesbel/api-rest-nodejs-typescript",
+    "logo": "https://github.com/slesbel/api-rest-nodejs-typescript/master/swagger.png",
+    "keywords": ["node", "typescript", "crud"]
+  }
