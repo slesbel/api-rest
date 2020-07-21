@@ -15,7 +15,7 @@ npm start
 ```
 
 ## Swagger
-Visit `http://localhost:3000/swagger` to view the OPENAPI document in Swagger-UI
+Visit `http://localhost:3000/swagger` to view the OPEN API document in Swagger-UI
 
 
 ## License
