@@ -184,39 +184,6 @@
                 }
             }
         },
-		"/Whatsapp": {
-            "post": {
-                "tags": [
-                    "Whatsapp"
-                ],
-                "summary": "Sending a message by whatsapp",
-                "requestBody": {
-                    "description": "Whatsapp Object",
-                    "required": true,
-                    "content": {
-                        "application/json": {
-                            "schema": {
-                                "$ref": "#/definitions/Whatsapp"
-                            }
-                        }
-                    }
-                },
-                "produces": [
-                    "application/json"
-                ],
-                "responses": {
-                    "200": {
-                        "description": "OK",
-                        "schema": {
-                            "$ref": "#/definitions/id"
-                        }
-                    },
-                    "400": {
-                        "description": "Failed. Bad post data."
-                    }
-                }
-            }
-        },
     },
     "definitions": {
         "id": {
@@ -236,17 +203,6 @@
                     "type": "string"
                 },
                 "phone": {
-                    "type": "string"
-                }
-            }
-        },
-		"Whatsapp": {
-            "type": "object",
-            "properties": {
-                "body": {
-                    "type": "string"
-                },
-                "to": {
                     "type": "string"
                 }
             }
