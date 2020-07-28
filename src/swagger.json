@@ -202,7 +202,7 @@
                 "age": {
                     "type": "string"
                 },
-                "lastFedDate": {
+                "phone": {
                     "type": "string"
                 }
             }

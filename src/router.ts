@@ -9,8 +9,8 @@ class Router {
         const router = express.Router()
 
         const users = new Map<string, User>();
-        users[id()] = { name: "Isabel", age: "28", lastFedDate: new Date() }
-        users[id()] = {  name: "Cássio", age: "29", lastFedDate: new Date() }
+        users[id()] = { name: "Drácula", age: "7", phone: "21999999999" }
+        users[id()] = {  name: "Loki", age: "5", phone: "21999999999" }
 
         router.get('/', (req: express.Request, res: express.Response) => {
             res.json({
