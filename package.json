@@ -26,6 +26,7 @@
     "firebase-admin": "^8.13.0",
     "swagger-editor": "^3.11.6",
     "swagger-ui-express": "^4.1.4",
+    "twilio": "^3.30.0",
     "typescript": "3.3.3333",
     "uuid": "^3.3.2"
   },
